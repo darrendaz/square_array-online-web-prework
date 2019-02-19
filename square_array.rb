@@ -6,6 +6,6 @@ def square_array(array)
   array.each do
     new_array = array[array_item]**2
     array_item += 1
-    return new_array
   end
+    return new_array
 end
