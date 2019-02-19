@@ -9,5 +9,5 @@ def square_array(array)
   # end
   # return array
   
-  array.collect()
+  array.collect { |x| x**2 }
 end
