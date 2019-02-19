@@ -4,6 +4,7 @@ def square_array(array)
   array_item = 0
   
   array.each do
-    array.map(array[array_item]**)
+    array.map(array[array_item]**2)
+    array_item += 1
   end
 end
