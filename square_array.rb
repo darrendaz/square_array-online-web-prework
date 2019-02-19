@@ -1,9 +1,9 @@
 def square_array(array)
   # your code here
   
-  array
+  array_count
   
   array.each do
-    array.map(array.square_array)
+    array.map(array.square)
   end
 end
