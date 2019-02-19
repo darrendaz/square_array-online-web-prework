@@ -7,5 +7,5 @@ def square_array(array)
     array[array_item] = array[array_item]**2
     array_item += 1
   end
-    return new_array
+    return array
 end
