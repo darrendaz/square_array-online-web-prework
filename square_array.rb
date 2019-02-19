@@ -8,4 +8,6 @@ def square_array(array)
   #   array_item += 1
   # end
   # return array
+  
+  array.collect()
 end
