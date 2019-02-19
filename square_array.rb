@@ -9,6 +9,6 @@ def square_array(array)
   # end
   # return array
   
-  array = array.map { |x| x*x }
+  array = array.map {|x| x*x }
   return array
 end
